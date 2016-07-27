@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		605992731D488D93001F284D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605992721D488D93001F284D /* ViewController.xib */; };
+		605992751D489E86001F284D /* TempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605992741D489E86001F284D /* TempViewController.xib */; };
 		607F03C81D476C750028550F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F03C71D476C750028550F /* main.m */; };
 		607F03CB1D476C750028550F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F03CA1D476C750028550F /* AppDelegate.m */; };
 		607F03CE1D476C750028550F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F03CD1D476C750028550F /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		607F03D61D476C750028550F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607F03D41D476C750028550F /* LaunchScreen.storyboard */; };
 		607F03E11D476C750028550F /* UIElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F03E01D476C750028550F /* UIElementsTests.m */; };
 		607F03EC1D476C750028550F /* UIElementsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F03EB1D476C750028550F /* UIElementsUITests.m */; };
+		60DF40491D48715A00B4FFD0 /* Button_Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DF40481D48715A00B4FFD0 /* Button_Default.png */; };
+		60DF404B1D48716B00B4FFD0 /* Button_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DF404A1D48716B00B4FFD0 /* Button_Highlighted.png */; };
+		60DF404E1D487FB000B4FFD0 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DF404D1D487FB000B4FFD0 /* TempViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		605992721D488D93001F284D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		605992741D489E86001F284D /* TempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewController.xib; sourceTree = "<group>"; };
 		607F03C31D476C750028550F /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607F03C71D476C750028550F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		607F03C91D476C750028550F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		607F03E71D476C750028550F /* UIElementsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIElementsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607F03EB1D476C750028550F /* UIElementsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIElementsUITests.m; sourceTree = "<group>"; };
 		607F03ED1D476C750028550F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DF40481D48715A00B4FFD0 /* Button_Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button_Default.png; path = ../../../../Downloads/Button_Default.png; sourceTree = "<group>"; };
+		60DF404A1D48716B00B4FFD0 /* Button_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button_Highlighted.png; path = ../../../../Downloads/Button_Highlighted.png; sourceTree = "<group>"; };
+		60DF404C1D487FB000B4FFD0 /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		60DF404D1D487FB000B4FFD0 /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,8 @@
 		607F03BA1D476C750028550F = {
 			isa = PBXGroup;
 			children = (
+				60DF404A1D48716B00B4FFD0 /* Button_Highlighted.png */,
+				60DF40481D48715A00B4FFD0 /* Button_Default.png */,
 				607F03C51D476C750028550F /* UIElements */,
 				607F03DF1D476C750028550F /* UIElementsTests */,
 				607F03EA1D476C750028550F /* UIElementsUITests */,
@@ -103,8 +116,12 @@
 			children = (
 				607F03C91D476C750028550F /* AppDelegate.h */,
 				607F03CA1D476C750028550F /* AppDelegate.m */,
+				60DF404C1D487FB000B4FFD0 /* TempViewController.h */,
+				60DF404D1D487FB000B4FFD0 /* TempViewController.m */,
+				605992741D489E86001F284D /* TempViewController.xib */,
 				607F03CC1D476C750028550F /* ViewController.h */,
 				607F03CD1D476C750028550F /* ViewController.m */,
+				605992721D488D93001F284D /* ViewController.xib */,
 				607F03CF1D476C750028550F /* Main.storyboard */,
 				607F03D21D476C750028550F /* Assets.xcassets */,
 				607F03D41D476C750028550F /* LaunchScreen.storyboard */,
@@ -244,7 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				607F03D61D476C750028550F /* LaunchScreen.storyboard in Resources */,
+				60DF404B1D48716B00B4FFD0 /* Button_Highlighted.png in Resources */,
+				60DF40491D48715A00B4FFD0 /* Button_Default.png in Resources */,
 				607F03D31D476C750028550F /* Assets.xcassets in Resources */,
+				605992731D488D93001F284D /* ViewController.xib in Resources */,
+				605992751D489E86001F284D /* TempViewController.xib in Resources */,
 				607F03D11D476C750028550F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DF404E1D487FB000B4FFD0 /* TempViewController.m in Sources */,
 				607F03CE1D476C750028550F /* ViewController.m in Sources */,
 				607F03CB1D476C750028550F /* AppDelegate.m in Sources */,
 				607F03C81D476C750028550F /* main.m in Sources */,
@@ -420,6 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchlabs.UIElements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchlabs.UIElements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

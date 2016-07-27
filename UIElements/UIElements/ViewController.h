@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TempViewController.h"
 
-@interface ViewController : UIViewController<UITextFieldDelegate>
+@interface ViewController : UIViewController<UITextFieldDelegate> {
+    
+    UIButton *navButton;
+}
+
 
 @end
 
