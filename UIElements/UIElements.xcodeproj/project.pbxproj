@@ -500,6 +500,7 @@
 				607F03F21D476C750028550F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607F03F31D476C750028550F /* Build configuration list for PBXNativeTarget "UIElementsTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +509,7 @@
 				607F03F51D476C750028550F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607F03F61D476C750028550F /* Build configuration list for PBXNativeTarget "UIElementsUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +518,7 @@
 				607F03F81D476C750028550F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
