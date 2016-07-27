@@ -25,7 +25,10 @@ RW50ZXIgEFRleHQuLi4
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="96" y="242" width="209" height="30"/>
+                                    <rect key="frame" x="0.0" y="20" width="380" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="170" y="20" width="130" height="30"/>
                                 </variation>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="IRB-BQ-HFx"/>
@@ -47,7 +50,7 @@ RW50ZXIgEFRleHQuLi4
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304.5" y="418"/>
+            <point key="canvasLocation" x="306" y="426"/>
         </scene>
     </scenes>
 </document>
